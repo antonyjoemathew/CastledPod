@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6019AD57D873F3AD664946A /* Pods_Castled.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BCCBDC48FCA8AB41552B4E3 /* Pods_Castled.framework */; };
+		C9263345291CB40000ACE169 /* Castled.h in Headers */ = {isa = PBXBuildFile; fileRef = C9263344291CB40000ACE169 /* Castled.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9263359291CB5B300ACE169 /* CastledAPIs+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C926334C291CB5B300ACE169 /* CastledAPIs+Extensions.swift */; };
+		C926335A291CB5B300ACE169 /* CastledNotifications+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C926334D291CB5B300ACE169 /* CastledNotifications+Extensions.swift */; };
+		C926335B291CB5B300ACE169 /* CastledUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = C926334F291CB5B300ACE169 /* CastledUserDefaults.swift */; };
+		C926335C291CB5B300ACE169 /* CastledConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9263350291CB5B300ACE169 /* CastledConstants.swift */; };
+		C926335D291CB5B300ACE169 /* CastledExceptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9263352291CB5B300ACE169 /* CastledExceptions.swift */; };
+		C926335E291CB5B300ACE169 /* CastledResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9263353291CB5B300ACE169 /* CastledResponse.swift */; };
+		C926335F291CB5B300ACE169 /* CastledNetworkRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9263354291CB5B300ACE169 /* CastledNetworkRouter.swift */; };
+		C9263360291CB5B300ACE169 /* CastledNetworkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9263355291CB5B300ACE169 /* CastledNetworkLayer.swift */; };
+		C9263361291CB5B300ACE169 /* Castled.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9263356291CB5B300ACE169 /* Castled.swift */; };
+		C9263362291CB5B300ACE169 /* CastledSwizzler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9263358291CB5B300ACE169 /* CastledSwizzler.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4BCCBDC48FCA8AB41552B4E3 /* Pods_Castled.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Castled.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E8E16A760E4B1B9F806882D /* Pods-Castled.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Castled.debug.xcconfig"; path = "Target Support Files/Pods-Castled/Pods-Castled.debug.xcconfig"; sourceTree = "<group>"; };
+		B392A7611481E0A8EDD2EAE9 /* Pods-Castled.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Castled.release.xcconfig"; path = "Target Support Files/Pods-Castled/Pods-Castled.release.xcconfig"; sourceTree = "<group>"; };
+		C9263341291CB40000ACE169 /* Castled.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Castled.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9263344291CB40000ACE169 /* Castled.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Castled.h; sourceTree = "<group>"; };
+		C926334C291CB5B300ACE169 /* CastledAPIs+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CastledAPIs+Extensions.swift"; sourceTree = "<group>"; };
+		C926334D291CB5B300ACE169 /* CastledNotifications+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CastledNotifications+Extensions.swift"; sourceTree = "<group>"; };
+		C926334F291CB5B300ACE169 /* CastledUserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CastledUserDefaults.swift; sourceTree = "<group>"; };
+		C9263350291CB5B300ACE169 /* CastledConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CastledConstants.swift; sourceTree = "<group>"; };
+		C9263352291CB5B300ACE169 /* CastledExceptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CastledExceptions.swift; sourceTree = "<group>"; };
+		C9263353291CB5B300ACE169 /* CastledResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CastledResponse.swift; sourceTree = "<group>"; };
+		C9263354291CB5B300ACE169 /* CastledNetworkRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CastledNetworkRouter.swift; sourceTree = "<group>"; };
+		C9263355291CB5B300ACE169 /* CastledNetworkLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CastledNetworkLayer.swift; sourceTree = "<group>"; };
+		C9263356291CB5B300ACE169 /* Castled.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Castled.swift; path = Castled/Castled.swift; sourceTree = "<group>"; };
+		C9263358291CB5B300ACE169 /* CastledSwizzler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CastledSwizzler.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C926333E291CB40000ACE169 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6019AD57D873F3AD664946A /* Pods_Castled.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E584177067E11421DB63BC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4BCCBDC48FCA8AB41552B4E3 /* Pods_Castled.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9263337291CB40000ACE169 = {
+			isa = PBXGroup;
+			children = (
+				C9263356291CB5B300ACE169 /* Castled.swift */,
+				C926334E291CB5B300ACE169 /* Constants */,
+				C926334B291CB5B300ACE169 /* Helpers */,
+				C9263351291CB5B300ACE169 /* Networking */,
+				C9263357291CB5B300ACE169 /* Swizzling */,
+				C9263343291CB40000ACE169 /* Castled */,
+				C9263342291CB40000ACE169 /* Products */,
+				DDAFE60611BAF5A3B0E0B270 /* Pods */,
+				3E584177067E11421DB63BC7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C9263342291CB40000ACE169 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9263341291CB40000ACE169 /* Castled.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9263343291CB40000ACE169 /* Castled */ = {
+			isa = PBXGroup;
+			children = (
+				C9263344291CB40000ACE169 /* Castled.h */,
+			);
+			path = Castled;
+			sourceTree = "<group>";
+		};
+		C926334B291CB5B300ACE169 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C926334C291CB5B300ACE169 /* CastledAPIs+Extensions.swift */,
+				C926334D291CB5B300ACE169 /* CastledNotifications+Extensions.swift */,
+			);
+			name = Helpers;
+			path = Castled/Helpers;
+			sourceTree = "<group>";
+		};
+		C926334E291CB5B300ACE169 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				C926334F291CB5B300ACE169 /* CastledUserDefaults.swift */,
+				C9263350291CB5B300ACE169 /* CastledConstants.swift */,
+			);
+			name = Constants;
+			path = Castled/Constants;
+			sourceTree = "<group>";
+		};
+		C9263351291CB5B300ACE169 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				C9263352291CB5B300ACE169 /* CastledExceptions.swift */,
+				C9263353291CB5B300ACE169 /* CastledResponse.swift */,
+				C9263354291CB5B300ACE169 /* CastledNetworkRouter.swift */,
+				C9263355291CB5B300ACE169 /* CastledNetworkLayer.swift */,
+			);
+			name = Networking;
+			path = Castled/Networking;
+			sourceTree = "<group>";
+		};
+		C9263357291CB5B300ACE169 /* Swizzling */ = {
+			isa = PBXGroup;
+			children = (
+				C9263358291CB5B300ACE169 /* CastledSwizzler.swift */,
+			);
+			name = Swizzling;
+			path = Castled/Swizzling;
+			sourceTree = "<group>";
+		};
+		DDAFE60611BAF5A3B0E0B270 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E8E16A760E4B1B9F806882D /* Pods-Castled.debug.xcconfig */,
+				B392A7611481E0A8EDD2EAE9 /* Pods-Castled.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C926333C291CB40000ACE169 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9263345291CB40000ACE169 /* Castled.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C9263340291CB40000ACE169 /* Castled */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9263348291CB40000ACE169 /* Build configuration list for PBXNativeTarget "Castled" */;
+			buildPhases = (
+				5C19A2631B0CEAC369B31341 /* [CP] Check Pods Manifest.lock */,
+				C926333C291CB40000ACE169 /* Headers */,
+				C926333D291CB40000ACE169 /* Sources */,
+				C926333E291CB40000ACE169 /* Frameworks */,
+				C926333F291CB40000ACE169 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Castled;
+			productName = Castled;
+			productReference = C9263341291CB40000ACE169 /* Castled.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9263338291CB40000ACE169 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					C9263340291CB40000ACE169 = {
+						CreatedOnToolsVersion = 14.0;
+						LastSwiftMigration = 1400;
+					};
+				};
+			};
+			buildConfigurationList = C926333B291CB40000ACE169 /* Build configuration list for PBXProject "Castled" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9263337291CB40000ACE169;
+			productRefGroup = C9263342291CB40000ACE169 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9263340291CB40000ACE169 /* Castled */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C926333F291CB40000ACE169 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5C19A2631B0CEAC369B31341 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Castled-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C926333D291CB40000ACE169 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C926335B291CB5B300ACE169 /* CastledUserDefaults.swift in Sources */,
+				C9263359291CB5B300ACE169 /* CastledAPIs+Extensions.swift in Sources */,
+				C9263361291CB5B300ACE169 /* Castled.swift in Sources */,
+				C926335F291CB5B300ACE169 /* CastledNetworkRouter.swift in Sources */,
+				C9263362291CB5B300ACE169 /* CastledSwizzler.swift in Sources */,
+				C9263360291CB5B300ACE169 /* CastledNetworkLayer.swift in Sources */,
+				C926335C291CB5B300ACE169 /* CastledConstants.swift in Sources */,
+				C926335A291CB5B300ACE169 /* CastledNotifications+Extensions.swift in Sources */,
+				C926335D291CB5B300ACE169 /* CastledExceptions.swift in Sources */,
+				C926335E291CB5B300ACE169 /* CastledResponse.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C9263346291CB40000ACE169 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C9263347291CB40000ACE169 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C9263349291CB40000ACE169 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E8E16A760E4B1B9F806882D /* Pods-Castled.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = MS7X7622VQ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.castled.pusherswift.Castled;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C926334A291CB40000ACE169 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B392A7611481E0A8EDD2EAE9 /* Pods-Castled.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = MS7X7622VQ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.castled.pusherswift.Castled;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C926333B291CB40000ACE169 /* Build configuration list for PBXProject "Castled" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9263346291CB40000ACE169 /* Debug */,
+				C9263347291CB40000ACE169 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9263348291CB40000ACE169 /* Build configuration list for PBXNativeTarget "Castled" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9263349291CB40000ACE169 /* Debug */,
+				C926334A291CB40000ACE169 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9263338291CB40000ACE169 /* Project object */;
+}
